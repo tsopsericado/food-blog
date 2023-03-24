@@ -68,7 +68,6 @@ nav ul li a {
   text-align: center;
 }
 
-
 nav ul li:hover {
   background-color: lightgray;
 }
@@ -110,6 +109,12 @@ footer .blog-post .each-blog img {
   height: 100%;
 }
 
+.about .caption,
+ em,
+  p {
+  margin: 20px;
+}
+
 footer .blog-post .each-blog .caption {
   max-width: 200px;
   margin-left: 20px;
@@ -130,8 +135,9 @@ footer .blog-post .each-blog .caption {
   line-height: 1.5rem;
 }
 
-.about .caption, em, p {
-  margin: 20px;
+footer p {
+  padding: 0;
+  margin: auto;
 }
 
 .about p {
@@ -199,10 +205,6 @@ footer h1 {
   font-size: 1.5em;
   margin-bottom: 1em;
 }
-footer p {
-  padding: 0;
-  margin: auto;
-}
 
 footer .footer {
   display: flex;
@@ -234,13 +236,6 @@ footer .blog-post .each-blog {
   max-width: 400px;
   border-bottom: 1px solid lightgray;
   padding-top: 1em;
-}
-
-footer .blog-post .each-blog .caption {
-  max-width: 200px;
-  margin-left: 20px;
-  padding: 0;
-  text-align: left;
 }
 
 footer .blog-post .each-blog:first-child {
