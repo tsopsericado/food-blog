@@ -64,7 +64,7 @@ nav ul li a {
   margin-right: 30px;
   color: black;
   font-weight: 300;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -77,58 +77,60 @@ nav ul li:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-bottom: 0px solid lightgray;
+  border-bottom: 0 solid lightgray;
   padding-bottom: 5em;
 }
 
-.gallery .img-gallery {
+.img-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+  margin-top: 20px;
 }
 
-.gallery .img-gallery .card {
-  max-height: 550px;
+.card {
+  max-height: 550px; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 7px;
 }
 
-.about .about-banner img {
+.about-banner img {
   width: 100%;
   height: 100%;
 }
 
-footer .blog-post .each-blog img {
+footer img {
   width: 80px;
   height: 80px;
 }
 
-.gallery .img-gallery .card .image img {
+.card img {
   width: 100%;
   height: 100%;
 }
 
 .about .caption,
- em,
-  p {
+em,
+p {
   margin: 20px;
 }
 
-footer .blog-post .each-blog .caption {
+footer .caption {
   max-width: 200px;
   margin-left: 20px;
   padding: 0;
   text-align: left;
 }
 
-.gallery .img-gallery .card .caption {
+.card .caption {
   width: 100%;
   height: 400px;
-  margin-top: 1.5em;
+ margin-top: 1.5em; 
 }
 
-.gallery .img-gallery .card .caption h3 {
+.caption h3 {
   text-align: center;
   font-weight: 300;
   font-size: 1.5rem;
@@ -145,14 +147,14 @@ footer p {
   line-height: 1.2em;
 }
 
-.gallery .img-gallery .card .caption p {
+.caption p {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 1em;
   margin-bottom: 1.5em;
 }
 
-section.gallery .pagination {
+.pagination {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,12 +179,12 @@ hr {
   border-bottom: 1px solid lightgray;
 }
 
-.about .title {
+.title {
   margin: 2em;
   font-weight: lighter;
 }
 
-.about .about-banner {
+.about-banner {
   max-width: 800px;
   max-height: 800px;
   margin: 10px auto;
@@ -278,11 +280,11 @@ footer .posts .active {
     max-width: 70%;
   }
 
-  .gallery .img-gallery {
+  .img-gallery {
     grid-template-columns: 1fr;
   }
 
-  footer > div {
+  footer div {
     max-width: 100%;
     margin-bottom: 50px;
   }
@@ -292,10 +294,24 @@ footer .posts .active {
   }
 }
 
-@media only screen and (max-width) {
+@media only screen and (max-width: 435px) {
   main {
     width: 95%;
     max-height: 1200px;
     margin: auto;
   }
+
+  .img-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+.card .caption {
+  margin-top: 0;
+}
+
+.card {
+  min-height: 670px; 
+}
+
 }
