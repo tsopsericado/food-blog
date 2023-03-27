@@ -30,14 +30,14 @@ header .menu {
   cursor: pointer;
 }
 
-.card img {
-  width: 100%;
-  height: 100%;
-}
-
 footer img {
   width: 80px;
   height: 80px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
 }
 
 .about-banner img {
