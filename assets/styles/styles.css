@@ -30,6 +30,21 @@ header .menu {
   cursor: pointer;
 }
 
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+footer img {
+  width: 80px;
+  height: 80px;
+}
+
+.about-banner img {
+  width: 100%;
+  height: 100%;
+}
+
 header .menu img {
   width: 100%;
 }
@@ -89,32 +104,11 @@ nav ul li:hover {
 }
 
 .card {
-  max-height: 550px; 
+  max-height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 7px;
-}
-
-.about-banner img {
-  width: 100%;
-  height: 100%;
-}
-
-footer img {
-  width: 80px;
-  height: 80px;
-}
-
-.card img {
-  width: 100%;
-  height: 100%;
-}
-
-.about .caption,
-em,
-p {
-  margin: 20px;
 }
 
 footer .caption {
@@ -124,10 +118,16 @@ footer .caption {
   text-align: left;
 }
 
+.about .caption,
+em,
+p {
+  margin: 20px;
+}
+
 .card .caption {
   width: 100%;
   height: 400px;
- margin-top: 1.5em; 
+  margin-top: 1.5em;
 }
 
 .caption h3 {
@@ -244,7 +244,7 @@ footer .blog-post .each-blog:first-child {
   padding-bottom: 20px;
 }
 
-footer .blog-post .each-blog:after {
+footer .blog-post .each-blog::after {
   clear: both;
 }
 
@@ -306,12 +306,11 @@ footer .posts .active {
     flex-direction: column;
   }
 
-.card .caption {
-  margin-top: 0;
-}
+  .card .caption {
+    margin-top: 0;
+  }
 
-.card {
-  min-height: 670px; 
-}
-
+  .card {
+    min-height: 670px;
+  }
 }
