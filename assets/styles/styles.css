@@ -83,6 +83,15 @@ nav ul li a {
   text-align: center;
 }
 
+.pagination ul li:hover{
+  background-color: #000;
+} 
+
+.pagination .active{
+  background-color: #000;
+  color: #fff;
+}
+
 nav ul li:hover {
   background-color: lightgray;
 }
