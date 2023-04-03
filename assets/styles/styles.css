@@ -79,17 +79,22 @@ nav ul li a {
   margin-right: 30px;
   color: black;
   font-weight: 300;
-  padding: 5px;
+  padding: 0;
   text-align: center;
 }
 
-.pagination ul li:hover{
-  background-color: #000;
-} 
-
-.pagination .active{
+.pagination ul li:hover {
   background-color: #000;
   color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.pagination .active {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
 }
 
 nav ul li:hover {
@@ -108,8 +113,8 @@ nav ul li:hover {
 .img-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 15px;
-  margin-top: 20px;
+  grid-gap: 5px;
+  margin-top: 40px;
 }
 
 .card {
@@ -169,16 +174,21 @@ footer p {
   align-items: center;
   width: 100%;
   height: 100px;
+  margin-bottom: 20px;
 }
 
 .pagination ul {
   display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
 }
+
+
 
 hr {
   width: 100%;
   opacity: 1;
-  margin: 25px 0;
+  margin: 50px 0 20px 0;
 }
 
 .about {
@@ -216,6 +226,8 @@ footer h1 {
   font-size: 1.5em;
   margin-bottom: 1em;
 }
+
+
 
 footer .footer {
   display: flex;
