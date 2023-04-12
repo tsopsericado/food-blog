@@ -215,10 +215,11 @@ footer {
   padding-top: 70px;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 footer div {
-  max-width: 33%;
+  max-width: 31%;
 }
 
 footer h1 {
@@ -227,12 +228,11 @@ footer h1 {
   margin-bottom: 1em;
 }
 
-
-
 footer .footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: start;
 }
 
 footer .footer a {
@@ -251,6 +251,16 @@ footer .footer a span:hover {
 footer .blog-post {
   width: 100%;
 }
+
+.blog-post img{
+  width: 15%;
+   height:50px ; 
+}
+
+/* .footer img{
+  width: 50%;
+  height: auto;
+} */
 
 footer .blog-post .each-blog {
   display: flex;
