@@ -118,11 +118,11 @@ nav ul li:hover {
 }
 
 .card {
-  max-height: 550px;
+  max-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 7px;
+  margin: 6px;
 }
 
 footer .caption {
@@ -183,18 +183,17 @@ footer p {
   letter-spacing: 2px;
 }
 
-
-
 hr {
   width: 100%;
-  opacity: 1;
-  margin: 50px 0 20px 0;
+  opacity: 0.2;
+  margin: 30px 0 2px 0;
 }
 
 .about {
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 5em;
+  margin-top: -90px;
+  padding-top: 0.5em;
+  padding-bottom: 3em;
   border-bottom: 1px solid lightgray;
 }
 
@@ -235,6 +234,11 @@ footer .footer {
   align-items: start;
 }
 
+footer .footer p {
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
 footer .footer a {
   color: black;
 }
@@ -252,15 +256,10 @@ footer .blog-post {
   width: 100%;
 }
 
-.blog-post img{
+.blog-post img {
   width: 15%;
-   height:50px ; 
+  height: 50px;
 }
-
-/* .footer img{
-  width: 50%;
-  height: auto;
-} */
 
 footer .blog-post .each-blog {
   display: flex;
@@ -343,5 +342,21 @@ footer .posts .active {
 
   .card {
     min-height: 670px;
+  }
+
+  .caption p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+
+  footer .blog-post .each-blog {
+    height: 70px;
+    margin: 5px;
+  }
+
+  main {
+    width: 85%;
   }
 }
