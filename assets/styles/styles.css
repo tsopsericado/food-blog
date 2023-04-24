@@ -45,6 +45,11 @@ footer img {
   height: 100%;
 }
 
+.blog-post img {
+  width: 15%;
+  height: 50px;
+}
+
 header .menu img {
   width: 100%;
 }
@@ -83,6 +88,10 @@ nav ul li a {
   text-align: center;
 }
 
+nav ul li:hover {
+  background-color: lightgray;
+}
+
 .pagination ul li:hover {
   background-color: #000;
   color: #fff;
@@ -95,10 +104,6 @@ nav ul li a {
   color: #fff;
   padding: 5px 10px;
   border: none;
-}
-
-nav ul li:hover {
-  background-color: lightgray;
 }
 
 .gallery {
@@ -186,7 +191,7 @@ footer p {
 hr {
   width: 100%;
   opacity: 0.2;
-  margin: 30px 0 2px 0;
+  margin: 30px 0 2px;
 }
 
 .about {
@@ -257,11 +262,6 @@ footer .blog-post {
   width: 100%;
 }
 
-.blog-post img {
-  width: 15%;
-  height: 50px;
-}
-
 footer .blog-post .each-blog {
   display: flex;
   flex-direction: row;
@@ -327,7 +327,7 @@ footer .posts .active {
 
 @media only screen and (max-width: 435px) {
   main {
-    width: 95%;
+    width: 85%;
     max-height: 1200px;
     margin: auto;
   }
@@ -357,7 +357,4 @@ footer .posts .active {
     margin: 5px;
   }
 
-  main {
-    width: 85%;
-  }
 }
