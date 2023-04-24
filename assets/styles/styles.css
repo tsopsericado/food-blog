@@ -86,14 +86,14 @@ nav ul li a {
 .pagination ul li:hover {
   background-color: #000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
 }
 
 .pagination .active {
   background-color: #000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
 }
 
@@ -180,7 +180,7 @@ footer p {
 .pagination ul {
   display: flex;
   justify-content: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 hr {
@@ -241,6 +241,7 @@ footer .footer p {
 
 footer .footer a {
   color: black;
+  padding-bottom: 40px;
 }
 
 footer .footer a span {
